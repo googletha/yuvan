@@ -10,3 +10,9 @@ pygame
 openai
 torch
 torchaudio
+streamlit
+streamlit-chat
+streamlit-webrtc
+streamlit-javascript
+plotly
+numpy

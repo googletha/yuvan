@@ -9,8 +9,8 @@ import random
 from typing import Dict, Any, Optional, List
 from abc import ABC, abstractmethod
 from yuvan.ai_advisory_agent import AIAdvisoryAgent
-import config
-import yuvan_config
+import config_Version2 as config
+import yuvan_config_Version2 as yuvan_config
 
 class Tool(ABC):
     """Base class for all tools"""

@@ -1,9 +1,13 @@
 pyttsx3
 SpeechRecognition
 PyAudio
+<<<<<<< HEAD
 google-generativeai 
 langchain-deepseek 
 requests
 psutil
 gradio-client
 pygame 
+=======
+openai 
+>>>>>>> 702a6196e0b0d7b7389b12510d4ac5306b62daea

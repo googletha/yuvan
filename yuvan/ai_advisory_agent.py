@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import config
 import requests
 import json
@@ -121,3 +122,29 @@ class AIAdvisoryAgent:
                     break
         
         return suggestions 
+=======
+import openai
+
+class AIAdvisoryAgent:
+    def __init__(self, api_key):
+        if api_key:
+            openai.api_key = api_key
+        else:
+            raise ValueError("OpenAI API key is required.")
+
+    def get_response(self, prompt):
+        """
+        Gets a response from the OpenAI API.
+        """
+        try:
+            response = openai.chat.completions.create(
+                model="gpt-4o",
+                messages=[
+                    {"role": "system", "content": "You are a helpful AI assistant."},
+                    {"role": "user", "content": prompt}
+                ]
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            return f"An error occurred with the OpenAI API: {e}" 
+>>>>>>> 702a6196e0b0d7b7389b12510d4ac5306b62daea

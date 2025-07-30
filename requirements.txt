@@ -1,4 +1,9 @@
 pyttsx3
 SpeechRecognition
 PyAudio
-openai 
+google-generativeai 
+langchain-deepseek 
+requests
+psutil
+gradio-client
+pygame 

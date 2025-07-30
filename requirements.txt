@@ -10,3 +10,36 @@ pygame
 openai
 torch
 torchaudio
+# New dependencies for advanced features
+langchain
+langchain-community
+langchain-openai
+python-docx
+PyPDF2
+pytesseract
+Pillow
+chromadb
+faiss-cpu
+sentence-transformers
+pathlib
+subprocess32
+python-magic
+rich
+textract
+pandas
+numpy
+schedule
+watchdog
+typing-extensions
+# Additional dependencies for complete functionality
+PyMuPDF
+beautifulsoup4
+scipy
+pyaudio
+# Platform-specific dependencies (install conditionally)
+# Windows: pywin32, winreg (built-in)
+# macOS: no additional deps needed
+# Linux: no additional deps needed
+asyncio-mqtt
+aiofiles
+uvloop

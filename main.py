@@ -5,6 +5,7 @@ import sys
 import asyncio
 from yuvan.task_handler import TaskHandler
 from yuvan.silero_tts import speak_text_async, stop_speaking_async, cleanup_silero_tts
+from yuvan.voice_system import speak_text as speak, cleanup_voice
 
 # Silero TTS integration
 async def speak_async(text):

@@ -1,44 +1,59 @@
+# Yuvan AI Assistant - Enhanced Version Requirements
+
+# Core AI and Speech
 pyttsx3
 SpeechRecognition
 PyAudio
-google-generativeai 
-langchain-deepseek 
-requests
-psutil
-gradio-client
-pygame
+google-generativeai
 openai
 torch
 torchaudio
-# New dependencies for advanced features
+
+# LangChain ecosystem
 langchain
 langchain-community
 langchain-openai
+langchain-deepseek
+
+# Document processing and OCR
 python-docx
 PyPDF2
+PyMuPDF
 pytesseract
 Pillow
+textract
+
+# Memory and vector databases
 chromadb
 faiss-cpu
 sentence-transformers
-pathlib
-subprocess32
-python-magic
-rich
-textract
+
+# Data processing and analysis
 pandas
 numpy
-schedule
-watchdog
-typing-extensions
-# Additional dependencies for complete functionality
-PyMuPDF
-beautifulsoup4
 scipy
-# Platform-specific dependencies (install conditionally)
-# Windows: pywin32, winreg (built-in)
-# macOS: no additional deps needed
-# Linux: no additional deps needed
+
+# Web and networking
+requests
+beautifulsoup4
+gradio-client
+
+# System and file operations
+psutil
+python-magic
+pathlib
+watchdog
+schedule
+
+# Async operations
 asyncio-mqtt
 aiofiles
 uvloop
+
+# Utilities and helpers
+rich
+typing-extensions
+subprocess32
+
+# Gaming/multimedia (if needed)
+pygame

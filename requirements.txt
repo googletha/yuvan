@@ -35,7 +35,6 @@ typing-extensions
 PyMuPDF
 beautifulsoup4
 scipy
-pyaudio
 # Platform-specific dependencies (install conditionally)
 # Windows: pywin32, winreg (built-in)
 # macOS: no additional deps needed
